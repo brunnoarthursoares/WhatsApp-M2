@@ -79,7 +79,7 @@ class WhatsAppViewModel implements \Magento\Framework\View\Element\Block\Argumen
      */
     public function getUrl()
     {
-        $url    = "https://web.whatsapp.com/";
+        $url    = "https://api.whatsapp.com/";
         $phone  = $this->getPhone();
         $text   = $this->getWelcome();
         $browser= $this->getDeviceType();
